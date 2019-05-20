@@ -1,5 +1,8 @@
 # travelTo
-Proyecto integración continua. Politecnico grancolombiano 2019.
+
+Proyecto de integración continua.
+
+Politecnico grancolombiano 2019.
 
 Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
@@ -17,6 +20,6 @@ Angular 7, scss, webpack, nodejs, rxjs, API REST
 
 # Equipo de desarrollo
 
-*Yesid Arley Marin Rivera
-*John Fredy Orjuela Herrera
-*Manuel Leonardo Castro Santana
+* Yesid Arley Marin Rivera
+* John Fredy Orjuela Herrera
+* Manuel Leonardo Castro Santana
