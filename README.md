@@ -17,6 +17,6 @@ Angular 7, scss, webpack, nodejs, rxjs, API REST
 
 # Equipo de desarrollo
 
-Yesid Arley Marin Rivera
-John Fredy Orjuela Herrera
-Manuel Leonardo Castro Santana
+*Yesid Arley Marin Rivera
+*John Fredy Orjuela Herrera
+*Manuel Leonardo Castro Santana
