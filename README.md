@@ -23,3 +23,4 @@ Angular 7, scss, webpack, nodejs, rxjs, API REST
 * Yesid Arley Marin Rivera
 * John Fredy Orjuela Herrera
 * Manuel Leonardo Castro Santana
+* Reynaldo Vargas Gaitan
