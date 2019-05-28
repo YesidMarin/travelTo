@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalPageComponent implements OnInit {
 
-  constructor() { }
 
-  ngOnInit() {
+  imageUrlArray: any[] = [
+    {url: 'assets/images/hilton.jpg', caption: 'Hotel Hilton San Andres'},
+    {url: 'assets/images/decameron.jpg', caption: 'DeCameron Santa Marta'},
+    {url: 'assets/images/decameronvillavicencio.jpg', caption: 'Hotel Botalon Villavicencio'},
+    {url: 'assets/images/turcobabu.jpg', caption: 'Hotel La Isla Santa Marta'},
+  ];
+  
+
+  constructor() {
+   }
+
+  ngOnInit() {    
   }
 
 }
