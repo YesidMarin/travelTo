@@ -10,7 +10,7 @@ Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angu
 
 ## Development server
 
-Antes de ejecutar el comando `ng server` se debe instalar o actualizar los paquetes con el comando `npm install` o `npm update`. 
+Antes de ejecutar el comando `ng serve` se debe instalar o actualizar los paquetes con el comando `npm install` o `npm update`. 
 
 Correr el comando `ng serve` para el servidor de dev.Navegar a `http://localhost:4200/`. La app se recargará automaticamente si tu hiciste algun cambio en los archivos de código.
 
