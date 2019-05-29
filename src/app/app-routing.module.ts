@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { PrincipalPageComponent } from './principal-page/principal-page.component';
 
 const routes: Routes = [
-  { path: '', component: PrincipalPageComponent, pathMatch: 'full' }
+  {path: '',  redirectTo: 'home', pathMatch: 'full'},
+  {path: 'home', component: PrincipalPageComponent},
 ];
 
 @NgModule({
