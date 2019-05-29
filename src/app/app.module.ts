@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrincipalPageComponent } from './principal-page/principal-page.component';
 import { HotelService } from './hotel.service';
+import { Page404Component } from './page404/page404.component';
+import { HotelsListComponent } from './hotels-list/hotels-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalPageComponent,
+    Page404Component,
+    HotelsListComponent,
   ],
   imports: [
     BrowserModule,
