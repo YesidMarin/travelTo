@@ -12,7 +12,7 @@ import {SlideshowModule} from 'ng-simple-slideshow';
 @NgModule({
   declarations: [
     AppComponent,
-    PrincipalPageComponent,
+    PrincipalPageComponent,    
   ],
   imports: [
     BrowserModule,
