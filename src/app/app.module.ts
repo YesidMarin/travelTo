@@ -8,18 +8,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrincipalPageComponent } from './principal-page/principal-page.component';
 import { HotelService } from './hotel.service';
 import {SlideshowModule} from 'ng-simple-slideshow';
+import { Page404Component } from './page404/page404.component';
+import { SlideShowComponent } from './slide-show/slide-show.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+
+import {MatToolbarModule} from '@angular/material';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrincipalPageComponent,    
+    PrincipalPageComponent,   
+    Page404Component, SlideShowComponent, TopBarComponent 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    SlideshowModule
+    SlideshowModule,
+    [MatToolbarModule]
   ],
   providers: [HotelService],
   bootstrap: [AppComponent]
