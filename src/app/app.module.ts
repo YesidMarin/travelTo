@@ -12,13 +12,17 @@ import { Page404Component } from './page404/page404.component';
 import { SlideShowComponent } from './slide-show/slide-show.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 
-import {MatToolbarModule} from '@angular/material';
+import {MatToolbarModule, MatButtonModule,MatCardModule} from '@angular/material';
+import { HotelsListComponent } from './hotels-list/hotels-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalPageComponent,   
-    Page404Component, SlideShowComponent, TopBarComponent 
+    Page404Component, 
+    SlideShowComponent, 
+    TopBarComponent,
+    HotelsListComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,7 @@ import {MatToolbarModule} from '@angular/material';
     BrowserAnimationsModule,
     HttpClientModule,
     SlideshowModule,
-    [MatToolbarModule]
+    [MatToolbarModule, MatButtonModule, MatCardModule]
   ],
   providers: [HotelService],
   bootstrap: [AppComponent]
