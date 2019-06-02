@@ -2,7 +2,8 @@ version: '3.4'
 
 services:
     app:
-        image: 'travelto'
+        image: travelto
+        container_name: travelto_CI
         build:
             context: .
             dockerfile: dockerfile
