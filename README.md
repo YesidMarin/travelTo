@@ -10,6 +10,10 @@ Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angu
 
 Esta página esta desplegada en github :computer: . Has [CLIC](https://yesidmarin.github.io/travelTo/) para visualizarla
 
+## Construcción en Docker
+
+El proyecto se construyo por medio de docker-compose. En la línea de comandos ejectuar `docker-compose up --build -d` si se desea bajar o eliminar el contenedor ejecutar `docker-compose down`
+
 ## Development server
 
 Antes de ejecutar el comando `ng serve` se debe instalar o actualizar los paquetes con el comando `npm install` o `npm update`. 
