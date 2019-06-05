@@ -12,7 +12,7 @@ Esta página esta desplegada en github :computer: . Has [CLIC](https://yesidmari
 
 ## Construcción en Docker
 
-El proyecto se construyo por medio de docker-compose. En la línea de comandos ejectuar `docker-compose up --build -d` si se desea bajar o eliminar el contenedor ejecutar `docker-compose down`
+El proyecto se construyo por medio de docker-compose. En la línea de comandos ejecutar `docker-compose up --build -d` si se desea bajar o eliminar el contenedor ejecutar `docker-compose down`
 
 ## Jenkins CI
 
