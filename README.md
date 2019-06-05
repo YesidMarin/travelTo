@@ -14,6 +14,10 @@ Esta página esta desplegada en github :computer: . Has [CLIC](https://yesidmari
 
 El proyecto se construyo por medio de docker-compose. En la línea de comandos ejectuar `docker-compose up --build -d` si se desea bajar o eliminar el contenedor ejecutar `docker-compose down`
 
+## Jenkins CI
+
+Antes de ejecutar el comando `docker-compose up --build -d` se debe cambiar la ruta del volumen `/su_ruta/Jenkins_home:/var/jenkins_home ` en el archivo `docker-compose.yml` para poder desplegar efectivamente.
+
 ## Development server
 
 Antes de ejecutar el comando `ng serve` se debe instalar o actualizar los paquetes con el comando `npm install` o `npm update`. 
