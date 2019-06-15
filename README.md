@@ -16,7 +16,11 @@ El proyecto se construyo por medio de docker-compose. En la línea de comandos e
 
 ## Jenkins CI
 
+### For Mac
 Antes de ejecutar el comando `docker-compose up --build -d` se debe cambiar la ruta del volumen `/su_ruta/Jenkins_home:/var/jenkins_home ` en el archivo `docker-compose.yml` para poder desplegar efectivamente.
+
+### For Windows
+Antes de ejecutar el comando `docker-compose up --build -d` se debe cambiar la ruta del volumen `c:/Users/UserName/su_ruta/Jenkins_home:/var/jenkins_home ` en el archivo `docker-compose.yml` para poder desplegar efectivamente.
 
 ## Development server
 
