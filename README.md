@@ -4,7 +4,6 @@ Proyecto de integración continua.
 
 Politecnico grancolombiano 2019.
 
-Este proyecto ha sido generado con [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
 ## Link de la página
 
