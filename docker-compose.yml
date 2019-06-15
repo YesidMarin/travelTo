@@ -9,3 +9,12 @@ services:
             dockerfile: dockerfile
         ports:
             - 3000:80
+    
+    jenkins:
+        image: jenkins/jenkins:latest
+        ports:
+            - '80:8080'
+            - '443:8443'
+            - '50000:50000'
+        volumes:
+            - /users/yesidmarin/Desktop/Jenkins_home:/var/jenkins_home 

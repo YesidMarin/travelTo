@@ -12,7 +12,15 @@ Esta página esta desplegada en github :computer: . Has [CLIC](https://yesidmari
 
 ## Construcción en Docker
 
-El proyecto se construyo por medio de docker-compose. En la línea de comandos ejectuar `docker-compose up --build -d` si se desea bajar o eliminar el contenedor ejecutar `docker-compose down`
+El proyecto se construyo por medio de docker-compose. En la línea de comandos ejecutar `docker-compose up --build -d` si se desea bajar o eliminar el contenedor ejecutar `docker-compose down`
+
+## Jenkins CI
+
+### For Mac
+Antes de ejecutar el comando `docker-compose up --build -d` se debe cambiar la ruta del volumen `/su_ruta/Jenkins_home:/var/jenkins_home ` en el archivo `docker-compose.yml` para poder desplegar efectivamente.
+
+### For Windows
+Antes de ejecutar el comando `docker-compose up --build -d` se debe cambiar la ruta del volumen `c:/Users/UserName/su_ruta/Jenkins_home:/var/jenkins_home ` en el archivo `docker-compose.yml` para poder desplegar efectivamente.
 
 ## Development server
 
